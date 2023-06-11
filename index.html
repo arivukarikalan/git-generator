@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GENERATING APPLICATION </title>
+    <link rel="stylesheet" href="stylesheeet.css">
+</head>
+<body>
+    
+<!-- Notice how we have used "semantic HTML" here -->
+<!-- Re-read the lesson if you don't understand what that means -->
+<!-- https://www.zachgollwitzer.com/posts/2021/fullstack-developer-series/7-html-crash-course-->
+<main>
+    <section class="content">
+      <!-- Your HTML code goes here -->
+      <h2>output</h2>
+      <h2>programmer memes</h2>
+      <div class="meme-content">
+             
+      </div>
+      <h2>joke</h2>
+      <div class="joke-content">
+
+      </div>
+      <h2> Random Quote</h2>
+      <div class="Quote-content">
+
+      </div>
+      <h2>riddle meme</h2>
+      <div class="riddle-content">
+
+      </div>
+    </section>
+    
+    <!-- No need to change anything in this section -->
+    <section class="sidebar">
+      <h2>Actions</h2>
+      <button onclick="showMeme()" class="meme-btn">Show a Meme</button>
+      <button onclick="showJoke()">Tell Me a Joke</button>
+      <button onclick="showQuote()">Random Quote</button>
+      <button onclick="showRiddle()">Riddle me</button>
+      <button class="reveal-btn" onclick="revealAnswers()">Reveal Riddle Answer</button>
+
+    </section>
+  </main>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
